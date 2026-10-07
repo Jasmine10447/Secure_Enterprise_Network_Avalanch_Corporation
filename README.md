@@ -1,55 +1,131 @@
-# 🔐 Secure Enterprise Network – Avalanch Corporation
+<h1 align="center">🔐 Secure Enterprise Network Design for Avalanch Corporation </h1>
 
-> **A secure, scalable, and resilient enterprise network infrastructure designed and implemented for Avalanch Corporation.**
+<p align="center">
+    <strong>A secure, scalable, resilient, and professionally designed enterprise network infrastructure implemented for Avalanch Corporation.</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/VLAN-Segmentation-1BA0D7" alt="VLAN">
+  <img src="https://img.shields.io/badge/OSPF-Routing-8B5CF6" alt="OSPF">
+  <img src="https://img.shields.io/badge/HSRP-Redundancy-EC4899" alt="HSRP">
+  <img src="https://img.shields.io/badge/STP-Switching-F59E0B" alt="STP">
+  <img src="https://img.shields.io/badge/LACP-Link%20Aggregation-10B981" alt="LACP">
+  <img src="https://img.shields.io/badge/IPSec-Security-EF4444" alt="IPSec">
+  <img src="https://img.shields.io/badge/SSH-Management-14B8A6" alt="SSH">
+  <img src="https://img.shields.io/badge/AAA-Authentication-3B82F6" alt="AAA">
+</p>
 
 ---
 
 ## 📌 Project Overview
 
-This project presents the design, configuration, documentation, and implementation of a secure enterprise network infrastructure for **Avalanch Corporation**.
+This project presents the **design, configuration, and implementation** of a secure enterprise network infrastructure developed for **Avalanch Corporation**.
 
-The network has been designed with a focus on **security, reliability, scalability, redundancy, and efficient network management**, incorporating a range of enterprise networking technologies and security practices.
+The network architecture focuses on:
 
-The repository contains the network documentation, device configuration files, network design diagrams, IP addressing plan, and the complete Cisco Packet Tracer project.
+* 🔐 Security
+* ⚡ Reliability
+* 📈 Scalability
+* 🔄 Redundancy
+* 🛡️ Network resilience
+* ⚙️ Efficient network management
+* 📡 Secure communication
+* 📋 Monitoring and logging
+
+The project demonstrates practical enterprise networking skills through network architecture, IP addressing, routing, switching, security, redundancy, remote management, and troubleshooting.
+
+> **Important:** This public repository is intended for **portfolio demonstration and project viewing**. The complete Cisco Packet Tracer source file and full device configuration files are intentionally not publicly distributed.
 
 ---
 
-## 🌐 Network Design
+# 🌐 Network Design
 
 ### Network Blueprint
+
+The network blueprint illustrates the overall enterprise network architecture, device connectivity, segmentation, routing structure, and redundancy design.
 
 ![Avalanch Corporation Network Blueprint](Network%20Design/Network%20Blueprint.png)
 
 ### IP Address Plan
 
+The IP addressing plan documents the network addressing structure, subnet allocation, VLAN networks, and related addressing information.
+
 ![Avalanch Corporation IP Address Plan](Network%20Design/IP%20Address%20Plan.png)
 
 ---
 
-## 🔧 Technologies & Networking Concepts
+# 🔧 Technologies & Networking Concepts
 
-This project demonstrates practical implementation of:
+This project demonstrates practical implementation and understanding of:
 
-* 🏢 Enterprise Network Architecture
-* 🔀 VLAN & Inter-VLAN Routing
-* 🌐 IP Addressing & Subnetting
-* 📐 VLSM
-* 🔄 OSPF Routing
-* 🛡️ Access Control Lists (ACL)
-* 🌳 Spanning Tree Protocol (STP)
-* 🔗 Link Aggregation / LACP
-* 🔁 HSRP & Network Redundancy
-* 📡 DHCP
-* 🔐 SSH
-* 👤 AAA Authentication
-* 📋 Syslog
-* 🔒 IPSec VPN
-* 🛡️ Network Security & Segmentation
-* ⚙️ Cisco Router & Multilayer Switch Configuration
+| **Networking & Infrastructure**          | **Security & Management**                |
+| ---------------------------------------- | ---------------------------------------- |
+| 🏢 Enterprise Network Architecture       | 🛡️ Access Control Lists (ACL)           |
+| 🔀 VLAN & Inter-VLAN Routing             | 🔐 Secure Shell (SSH)                    |
+| 🌐 IP Addressing & Subnetting            | 👤 AAA Authentication & Authorization    |
+| 📐 Variable Length Subnet Masking (VLSM) | 📋 Syslog                                |
+| 🔄 OSPF Dynamic Routing                  | 🔒 IPSec VPN                             |
+| 🌳 Spanning Tree Protocol (STP)          | 🛡️ Network Security & Segmentation      |
+| 🔗 Link Aggregation / LACP               | 🔍 Network Monitoring & Troubleshooting  |
+| 🔁 HSRP & Gateway Redundancy             | 🔐 Network Access Control                 |
+| 📡 DHCP                                  | 📊 Network Monitoring & Troubleshooting  |
 
 ---
 
-## 📁 Repository Structure
+# 🎯 Project Objectives
+
+The primary objectives of this project were to:
+
+* Design a secure and reliable enterprise network infrastructure.
+* Implement effective network segmentation using VLANs.
+* Provide communication between different network segments through Inter-VLAN routing.
+* Implement dynamic routing using OSPF.
+* Improve network availability through redundancy mechanisms.
+* Implement Layer 2 redundancy and loop prevention.
+* Configure secure remote device management.
+* Implement authentication and authorization mechanisms.
+* Apply enterprise-level security and access control.
+* Implement secure VPN connectivity.
+* Establish centralized logging and monitoring.
+* Develop a structured IP addressing and subnetting plan.
+* Demonstrate practical enterprise networking, configuration, and troubleshooting skills.
+
+---
+
+# 🛡️ Security & Reliability
+
+Security, availability, and resilience were considered throughout the network design.
+
+### 🔐 Network Security
+
+* VLAN-based network segmentation
+* Access Control Lists (ACL)
+* Secure SSH-based device management
+* AAA authentication and authorization
+* IPSec VPN connectivity
+* Controlled network access
+
+### 🔄 Network Reliability
+
+* HSRP gateway redundancy
+* Spanning Tree Protocol
+* Link Aggregation / LACP
+* Dynamic OSPF routing
+* Redundant network paths
+* Resilient network architecture
+
+### 📋 Monitoring & Management
+
+* Syslog-based centralized logging
+* Secure administrative access
+* Structured device configuration
+* Network troubleshooting and verification
+
+These mechanisms help create a network environment that is **secure, manageable, scalable, and resilient**.
+
+---
+
+# 📁 Public Repository Structure
 
 ```text
 Secure_Enterprise_Network_Avalanch_Corporation/
@@ -57,112 +133,66 @@ Secure_Enterprise_Network_Avalanch_Corporation/
 ├── 📂 Avalanch Report/
 │   └── 📄 Network Documentation.pdf
 │
-├── 📂 Configuration Files/
-│   ├── 📄 Main-R1_startup-config.txt
-│   ├── 📄 Main-Sw_startup-config.txt
-│   ├── 📄 Neg-MLS01_startup-config.txt
-│   ├── 📄 Neg-MLS02_startup-config.txt
-│   └── 📄 Neg-R1_startup-config.txt
-│
 ├── 📂 Network Design/
 │   ├── 🖼️ IP Address Plan.png
 │   └── 🖼️ Network Blueprint.png
 │
-└── 📂 Packet Tracer/
-    └── 📦 Avalanch_Network.pkt
+├── 📄 README.md
+└── 📄 LICENSE
 ```
 
----
-
-## 🎯 Project Objectives
-
-The primary objectives of this project are to:
-
-* Design a secure and reliable enterprise network.
-* Implement effective network segmentation using VLANs.
-* Provide routing between different network segments.
-* Implement redundancy and improve network availability.
-* Apply enterprise-level network security mechanisms.
-* Configure secure remote management.
-* Implement centralized monitoring and logging.
-* Document the complete network infrastructure.
-* Demonstrate practical enterprise networking and troubleshooting skills.
+> **Note:** Complete Packet Tracer source files and full device configuration files are intentionally excluded from the public repository to protect the originality and intellectual ownership of the project.
 
 ---
 
-## 🛡️ Security & Reliability
+# 💻 Cisco Packet Tracer Source
 
-Security and availability were considered throughout the network design.
+The complete Cisco Packet Tracer implementation was developed as part of this project.
 
-The implementation incorporates:
+However, the original `.pkt` source file is **not publicly distributed through this repository** as it contains the complete network topology, device configurations, security settings, routing implementation, and other original project components. Keeping the source file private helps protect the originality and intellectual ownership of the project and prevents unauthorized copying, modification, redistribution, or presentation of the work as someone else's.
 
-* Network segmentation
-* Access control
-* Secure device management
-* Authentication and authorization
-* Redundant gateway mechanisms
-* Dynamic routing
-* Layer 2 redundancy
-* Secure VPN connectivity
-* Centralized logging and monitoring
+The Packet Tracer project contains the complete working implementation, including:
 
-These mechanisms help create a network environment that is more **secure, manageable, and resilient**.
+* Network topology
+* Device configurations
+* VLAN configuration
+* Routing configuration
+* Security configuration
+* Redundancy configuration
+* IP addressing
+* Network services
 
----
+The source implementation is retained by the project author to protect the originality of the work.
 
-## 📚 Documentation
-
-Detailed information about the network architecture, implementation, configurations, and design is available in:
-
-📄 **[Network Documentation](Avalanch%20Report/Network%20Documentation.pdf)**
+> **The project can be viewed through the publicly available diagrams, screenshots, project information, and selected documentation without distributing the complete source implementation.**
 
 ---
 
-## 💻 Packet Tracer Project
+# 🔒 Copyright & Usage
 
-The complete Cisco Packet Tracer implementation is available in:
+This repository showcases **original project work** created for portfolio and professional demonstration purposes. Public access does not grant permission to copy, reproduce, modify, redistribute, or present this work as another person's own.
 
-📦 **[Avalanch Network](Packet%20Tracer/Avalanch_Network.pkt)**
+The complete **Cisco Packet Tracer source file, device configurations, and original implementation materials** are intentionally protected and are not licensed for public reuse or redistribution.
 
-> The Packet Tracer project is provided as part of the original project work and is subject to the usage restrictions stated below.
+Any reproduction, modification, academic submission, commercial use, or redistribution of protected materials requires **prior written permission from the author**.
 
----
-
-## 🔒 Copyright & Usage Policy
-
-### © 2026 Yesmin Jalaldeen. All Rights Reserved.
-
-This repository contains **original project work**, including network designs, configurations, documentation, diagrams, and the Packet Tracer implementation.
-
-The contents of this repository are published for **portfolio, demonstration, and viewing purposes**.
-
-### ❌ Unauthorized Use
-
-Without prior written permission from the author, you may **not**:
-
-* Copy or reproduce this project or substantial portions of it.
-* Download and redistribute the project or its contents.
-* Modify and republish the configurations or documentation.
-* Reuse the network design or implementation in another project.
-* Submit any part of this work as your own.
-* Use this work for academic submission or assessment.
-* Use this work for commercial or professional purposes.
-
-### 📩 Permission Requests
-
-If you wish to **download, use, reproduce, modify, distribute, or incorporate any part of this project into another project**, please contact the author and obtain **prior written permission**.
-
-Permission may be granted on a **case-by-case basis** at the author's discretion.
-
-Unauthorized use, reproduction, redistribution, or representation of this work as another person's work is not permitted.
+> **Built with purpose. Designed with precision. Secured with ownership.**
+> **©Yesmin Jalaldeen 2025 — All Rights Reserved.**
 
 ---
 
-## 👤 Project Author
+<div align="center">
 
-### **Yesmin Jalaldeen**
-**Network Project Designer & Author**
+### ✍️ **Yesmin Jalaldeen**
+*Project Designer & Original Author*
+<br>
+**BIT (Hons) specialized in Computer Networks** <br>
+**BCS HEQ PGD in Computer Networks**
 
-> This repository represents my original work and demonstrates my practical knowledge and skills in enterprise networking, network security, infrastructure design, configuration, and technical documentation.
+
+ *“From Intelligent Network Design to Secure Connectivity — Built to Perform, Built to Last.”*
 
 **© 2026 Yesmin Jalaldeen — All Rights Reserved.**
+
+</div>
+
