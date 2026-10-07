@@ -176,7 +176,6 @@ The complete **Cisco Packet Tracer source file, device configurations, and origi
 
 Any reproduction, modification, academic submission, commercial use, or redistribution of protected materials requires **prior written permission from the author**.
 
-> **Built with purpose. Designed with precision. Secured with ownership.**
 > **©Yesmin Jalaldeen 2025 — All Rights Reserved.**
 
 ---
