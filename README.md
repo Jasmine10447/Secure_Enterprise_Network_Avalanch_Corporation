@@ -137,8 +137,8 @@ Secure_Enterprise_Network_Avalanch_Corporation/
 │   ├── 🖼️ IP Address Plan.png
 │   └── 🖼️ Network Blueprint.png
 │
-├── 📄 README.md
-└── 📄 LICENSE
+├── 📄 LICENSE
+└── 📄 README.md
 ```
 
 > **Note:** Complete Packet Tracer source files and full device configuration files are intentionally excluded from the public repository to protect the originality and intellectual ownership of the project.
