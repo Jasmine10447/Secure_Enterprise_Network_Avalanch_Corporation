@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/OSPF-Routing-8B5CF6" alt="OSPF">
   <img src="https://img.shields.io/badge/HSRP-Redundancy-EC4899" alt="HSRP">
   <img src="https://img.shields.io/badge/STP-Switching-F59E0B" alt="STP">
-  <img src="https://img.shields.io/badge/LACP-Link%20Aggregation-10B981" alt="LACP">
+  <img src="https://img.shields.io/badge/LACP-Link%20Aggregation-10B981" alt="LACP"> <br>
   <img src="https://img.shields.io/badge/IPSec-Security-EF4444" alt="IPSec">
   <img src="https://img.shields.io/badge/SSH-Management-14B8A6" alt="SSH">
   <img src="https://img.shields.io/badge/AAA-Authentication-3B82F6" alt="AAA">
