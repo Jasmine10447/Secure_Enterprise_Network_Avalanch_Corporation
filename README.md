@@ -1,4 +1,4 @@
-<h1 align="center">🔐 Secure Enterprise Network Design for Avalanch Corporation </h1>
+<h1 align="center">🔐 Secure Enterprise Network Design for <br> Avalanch Corporation </h1>
 
 <p align="center">
     <strong>A secure, scalable, resilient, and professionally designed enterprise network infrastructure implemented for Avalanch Corporation.</strong>
